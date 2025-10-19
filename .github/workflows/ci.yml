@@ -20,4 +20,4 @@ jobs:
 
     - name: Build with Nix Shell
       run: |
-        nix-shell --run "cmake -B cmake-build-debug -S . -G Ninja && cmake --build cmake-build-debug"
+        nix-shell ./shell.nix --run "cmake -B cmake-build-debug -S . -G Ninja && cmake --build cmake-build-debug"
