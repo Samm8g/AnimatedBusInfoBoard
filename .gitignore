@@ -1,0 +1,12 @@
+# CMake build directories
+build/
+cmake-build-*/
+
+# IDE-specific files
+.idea/
+*.iml
+GEMINI.md
+
+# Common temporary files
+*.swp
+*~
